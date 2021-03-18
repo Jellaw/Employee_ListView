@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -22,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:text="Quan ly nhan vien"
+            android:text="Quản lý nhân viên"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -43,8 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:text="Ma nhan vien"
+            android:text="Mã nhân viên"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -72,8 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:text="Ten nhan vien"
+            android:text="Tên nhân viên"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -102,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="Gioi tinh"
+            android:text="Giới tính"
             android:textColor="#000000"
             android:textSize="18sp" />
 
@@ -125,7 +124,7 @@
                 android:id="@+id/femaleBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nu" />
+                android:text="Nữ" />
         </RadioGroup>
 
     </LinearLayout>
@@ -135,7 +134,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Nhap Nhan Vien"
+        android:backgroundTint="#4CAF50"
+        android:text="Thêm Nhân Viên"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
@@ -144,6 +144,7 @@
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="#4CAF50"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,7 +157,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center"
-            android:text="Danh sach nhan vien"
+            android:text="Danh sách nhân viên"
             android:textColor="#FAFAFA"
             android:textSize="24sp"
             android:textStyle="bold" />
